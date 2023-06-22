@@ -15,7 +15,7 @@ python main.py
     Open source
 
 ### Teacher :
-    Dr. LOKPO IBRAHIM
+    Dr. LOKPO BRAHIMA
 
 ### Students
     - BINI Aladji Kassoum
