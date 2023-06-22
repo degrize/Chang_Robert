@@ -1,14 +1,8 @@
 import socket
 
-# MEMBRES : BINI, KOUADIO, MEDA
-
-#GUIDE D'UTILISATION
-# Lancer 4 terminaux différents
-# Exécuter le meme programme dans les différents terminaux et suivre les étapes successives
-# 
-
 ELECTION = 0
 NEW_LEAD = 1
+
 
 class Node:
     def __init__(self, site_number, neighbor_number, info):
@@ -66,12 +60,14 @@ def run_node(node):
                 message = eval(data.decode())
                 node.accept(message)
 
+
 def spawn():
     site_number = int(input("Entrez le numéro du site : "))
     neighbor_number = int(input("Entrez le numéro du voisin : "))
     info = int(input("Entrez l'information à transmettre : "))
     node = Node(site_number, neighbor_number, info)
     return node
+
 
 if __name__ == '__main__':
     node = spawn()

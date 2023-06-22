@@ -2,8 +2,8 @@
 Distributed Algorithm in python whit multiple process (Host)
 
 ### How we can run
-- Lancer 4 terminaux différents
-- Exécuter le meme programme dans les différents terminaux et suivre les étapes successives
+- Launch 4 different terminals
+- Run the same program in the different terminals and follow the successive steps
 
 ```
 python main.py
